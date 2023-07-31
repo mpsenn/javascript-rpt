@@ -1,0 +1,14 @@
+{
+  "name": "javascript-rpt",
+  "version": "0.0.1",
+  "description": "javascript programming test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "msenn@salesforce.com",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.0"
+  }
+}
