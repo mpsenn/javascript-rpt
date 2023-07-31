@@ -7,6 +7,8 @@ npm run test
 
 # Problem description
 
+Originally copied from [Karrels 1997 ACM Finals, Problem A](http://www.karrels.org/Ed/ACM/97/prob_a.html).
+
 Components of computer systems often have dependencies--other components that must be installed before they will function properly. These dependencies are frequently shared by multiple components. For example, both the TELNET client program and the FTP client program require that the TCP/IP networking software be installed before they can operate. If you install TCP/IP and the TELNET client program, and later decide to add the FTP client program, you do not need to reinstall TCP/IP.
 
 For some components it would not be a problem if the components on which they depended were reinstalled; it would just waste some resources. But for others, like TCP/IP, some component configuration may be destroyed if the component was reinstalled.

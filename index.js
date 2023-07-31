@@ -1,23 +1,42 @@
-export function setUp() {
+function setUp() {
   // any setup needed for each test
 }
 
-export function tearDown() {
+function tearDown() {
   // any cleanup needed for each test
 }
 
-export function depend(a, ...b) {
+// Remembers a package dependency -- a depends on b
+// All depend() calls happen before all other function calls
+function depend(a, ...b) {
   console.log(`DEPEND ${a} ${b}`);
+  // TODO unimplemented
 }
 
-export function install(a) {
+// Installs 'a' and all its dependencies
+function install(a) {
   console.log(`INSTALL ${a}`);
+  // TODO unimplemented
 }
 
-export function remove(a) {
+// Removes 'a' and all its dependencies
+function remove(a) {
   console.log(`REMOVE ${a}`);
+  // TODO unimplemented
 }
 
-export function list() {
+// Returns an array of all installed packages
+function list() {
   console.log(`LIST`);
+  // TODO unimplemented
+  return ["first", "second"];
 }
+
+module.exports = {
+  setUp,
+  tearDown,
+  depend,
+  install,
+  remove,
+  list,
+};
