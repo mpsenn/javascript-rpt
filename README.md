@@ -5,6 +5,8 @@ npm ci
 npm run test
 ```
 
+In [index.js](./index.js), there are four incomplete methods: depend, install, list, and remove. Fill in an implementation for each method according to the Problem description below. You are allowed to change anything needed: create new variables, global variables, helper functions, as needed. The `setUp` and `tearDown` functions are called for each test case, so add anything in there if you need it.
+
 # Problem description
 
 Originally copied from [Karrels 1997 ACM Finals, Problem A](http://www.karrels.org/Ed/ACM/97/prob_a.html).
